@@ -1,0 +1,10 @@
+body {
+  background-color: cadetblue;
+}
+.output {
+  color: red;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  width: 200px;
+}
