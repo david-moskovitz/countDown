@@ -3,7 +3,7 @@ const countDown = () => {
   const countDownAmount = parseInt(input.value);
   console.log(countDownAmount);
   if (countDownAmount === 0) {
-    console.warn("error");
+    console.warn("can't count down to 0");
     return;
   }
   const output = document.getElementById("countDown");
