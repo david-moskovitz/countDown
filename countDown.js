@@ -8,8 +8,9 @@ const countDown = () => {
   }
   const output = document.getElementById("countDown");
   let sec = countDownAmount * 60;
-  //remove a second
-  //update the dom with the new value
+  // there is 2 things we need to do:
+  // 1) remove a second
+  // 2) update the dom with the new value
   let intervalId;
 
   intervalId = setInterval(() => {
